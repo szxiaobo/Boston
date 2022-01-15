@@ -33,3 +33,13 @@ sns.lineplot(x=x['Rooms'],y=y_pred, color='red', color2='yellow2') #2 adding the
 plt.xlim(10) # 3a chage it again 
 plt.ylim(110)  # 3b chage it again 
 plt.show()
+
+#part 4
+lm = linear_model.LinearRegression()
+lm.fit(X, y) # fitting the model
+lm.predict(X)
+lm.score(X, y)
+
+lm.coef_
+
+lm.intercept_
