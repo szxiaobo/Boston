@@ -30,6 +30,6 @@ sns.scatterplot(x=x['Rooms'], y=y, z=None) # 1 update this line first
 #plotting the line
 sns.lineplot(x=x['Rooms'],y=y_pred, color='red', color2='yellow2') #2 adding the color
 #axes
-plt.xlim(0)
-plt.ylim(0)
+plt.xlim(10) # 3a chage it again 
+plt.ylim(110)  # 3b chage it again 
 plt.show()
