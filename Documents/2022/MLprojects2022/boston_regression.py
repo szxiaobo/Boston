@@ -26,9 +26,9 @@ y_pred = 9.1021 * x['Rooms'] - 34.6706
 import seaborn as sns
 import matplotlib.pyplot as plt
 # plotting the data points
-sns.scatterplot(x=x['Rooms'], y=y)
+sns.scatterplot(x=x['Rooms'], y=y, z=None) # 1 update this line first
 #plotting the line
-sns.lineplot(x=x['Rooms'],y=y_pred, color='red')
+sns.lineplot(x=x['Rooms'],y=y_pred, color='red', color2='yellow2') #2 adding the color
 #axes
 plt.xlim(0)
 plt.ylim(0)
