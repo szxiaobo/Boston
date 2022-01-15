@@ -32,6 +32,7 @@ sns.lineplot(x=x['Rooms'],y=y_pred, color='red', color2='yellow2') #2 adding the
 #axes
 plt.xlim(10) # 3a chage it again 
 plt.ylim(110)  # 3b chage it again 
+#<<<<<<< branch_modeling
 plt.show()
 
 #part 4
@@ -43,3 +44,5 @@ lm.score(X, y)
 lm.coef_
 
 lm.intercept_
+plt.show()
+
